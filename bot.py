@@ -11,4 +11,5 @@ if __name__ == '__main__':
     dp.add_handler(MessageHandler(Filters.text & ~Filters.command, handle_message))
     print("🤖 ربات روشنه... منتظره پیام!")
     updater.start_polling()
-    updater.idle()
+  updater.idle()
+ربات آمادست
